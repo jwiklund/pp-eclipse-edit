@@ -1,0 +1,16 @@
+Bundle-SymbolicName: pp.eclipse.edit;singleton=true
+Bundle-Version: 1.0.0
+Bundle-Name: pp.eclipse.edit
+Bundle-Vendor: pp.eclipse
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.wst.sse.core,
+ org.eclipse.wst.sse.ui,
+ org.eclipse.wst.xml.core,
+ org.eclipse.wst.xml.ui,
+ org.eclipse.wst.common.ui,
+ org.eclipse.jface.text,
+ org.eclipse.core.resources,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.ide
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

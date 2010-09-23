@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="pp.eclipse.edit.ui.ContextXMLEditor"
+            contributorClass="pp.eclipse.edit.ui.ContentXMLEditorContributor"
+            extensions="test"
+            icon="icons/sample.gif"
+            id="pp.eclipse.edit.ui.ContextXMLEditor"
+            name="Content XML Editor">
+      </editor>
+   </extension>
+</plugin>
